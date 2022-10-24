@@ -582,7 +582,7 @@ GameObject:
   - component: {fileID: 49236908}
   - component: {fileID: 49236909}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: ShopManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -708,7 +708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Shop: {fileID: 154699517}
   spending: {fileID: 306703185}
-  cost: 40
+  cost: 999
 --- !u!1 &73973394
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,7 +1459,7 @@ GameObject:
   - component: {fileID: 154699516}
   - component: {fileID: 154699515}
   m_Layer: 5
-  m_Name: Shop
+  m_Name: ShopUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15598,7 +15598,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.06}
   m_SizeDelta: {x: 308.9, y: 57.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2071227951
@@ -15621,8 +15621,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sub....\nWant me to open the 'shop' for you? Press E\nWant to 'buy something'?
-    press R \nFor now everything cost $40."
+  m_text: "Sub....\nWant me to open the 'shop' for you? Press E\nThen want to 'buy
+    something'? press R \nEverything cost 999\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
