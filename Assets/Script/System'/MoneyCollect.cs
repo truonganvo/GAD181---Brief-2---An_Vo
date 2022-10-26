@@ -12,7 +12,7 @@ public class MoneyCollect : MonoBehaviour
     public TextMeshProUGUI moneyHave;
 
     //stats
-    [SerializeField] int playerCharms = 0;
+    public int playerCharms = 0;
     private int playCharisma = 1;
 
     private void Update()
