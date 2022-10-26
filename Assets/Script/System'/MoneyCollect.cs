@@ -8,10 +8,12 @@ public class MoneyCollect : MonoBehaviour
 {
     //amount & spend
     public int moneyGain = 0;
+    public int moneyCollecting = 10;
     public TextMeshProUGUI moneyHave;
 
     //stats
     [SerializeField] int playerCharms = 0;
+    private int playCharisma = 1;
 
     private void Update()
     {
@@ -19,11 +21,11 @@ public class MoneyCollect : MonoBehaviour
     }
     public void Charisma()
     {
-        playerCharms += 1;
+        playerCharms += playCharisma;
     }
 
     public void Money()
     {
-        moneyGain += 10;
+        moneyGain += moneyCollecting;
     }
 }
