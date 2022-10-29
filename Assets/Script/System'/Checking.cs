@@ -5,24 +5,34 @@ using UnityEngine;
 public class Checking : MonoBehaviour
 {
     [SerializeField] MoneyCollect Check;
+    [SerializeField] private Animator anim;
 
     private void Awake()
     {
         Check.GetComponent<MoneyCollect>();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if(other.gameObject.tag == "Player")
         {
             Track();
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            anim.SetBool("playerImpact", false);
+        }
+    }
+
     private void Track()
     {
         if (Check.playerCharms >= 10 && Check.moneyGain >= 1000)
         {
-            Destroy(gameObject);
+            anim.SetBool("playerImpact", true);
         }
     }
 }
