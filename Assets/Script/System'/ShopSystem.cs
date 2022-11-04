@@ -8,6 +8,7 @@ public class ShopSystem : MonoBehaviour
 {
     public Canvas Shop;
     [SerializeField] MoneyCollect spending;
+    [SerializeField] Hunger hungry;
 
     public int cost;
     private void OnTriggerStay(Collider other)
@@ -40,6 +41,7 @@ public class ShopSystem : MonoBehaviour
         if (spending.moneyGain >= cost)
         {
             spending.moneyGain -= cost;
+            hungry.hunger += 5;
         }
     }
 }
