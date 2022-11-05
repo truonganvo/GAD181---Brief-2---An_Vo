@@ -19,7 +19,7 @@ public class Hunger : MonoBehaviour
     void Update()
     {
         hungerBar.value = hunger;
-        hunger -= 1f * Time.deltaTime;
+        hunger -= 0.5f * Time.deltaTime;
 
         if (hunger <= 0)
         {
