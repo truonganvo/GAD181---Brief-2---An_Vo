@@ -39,6 +39,8 @@ public class Police : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             SceneManager.LoadScene("GameOver");
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
 }
