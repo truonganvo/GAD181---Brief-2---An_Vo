@@ -30,7 +30,7 @@ public class Checking : MonoBehaviour
 
     private void Track()
     {
-        if (Check.playerCharms >= 10 && Check.moneyGain >= 10000)
+        if (Check.moneyGain >= 5)
         {
             anim.SetBool("playerImpact", true);
         }

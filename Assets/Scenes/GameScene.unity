@@ -5017,6 +5017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 4
 --- !u!135 &107908733
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9927,6 +9928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 10
 --- !u!114 &189365211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12642,6 +12644,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240063431}
   m_CullTransparentMesh: 1
+--- !u!1 &241676243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 241676244}
+  m_Layer: 0
+  m_Name: Other
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &241676244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241676243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 736418655}
+  - {fileID: 1269655240}
+  - {fileID: 296108255}
+  m_Father: {fileID: 1658995797}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &245734361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14356,6 +14392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 2
 --- !u!114 &281867640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15038,12 +15075,12 @@ Transform:
   m_GameObject: {fileID: 296108254}
   m_LocalRotation: {x: -0, y: -0.031198103, z: -0, w: 0.99951327}
   m_LocalPosition: {x: -482.09222, y: -691.9889, z: -168.92583}
-  m_LocalScale: {x: 0.56008, y: 1, z: 0.45787004}
+  m_LocalScale: {x: 0.56008, y: 1, z: 0.45787007}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 416547945}
-  m_Father: {fileID: 1658995797}
-  m_RootOrder: 5
+  m_Father: {fileID: 241676244}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -3.576, z: 0}
 --- !u!114 &296108256
 MonoBehaviour:
@@ -15485,7 +15522,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moneyGain: 0
-  moneyCollecting: 10
   moneyHave: {fileID: 788124832}
   playerCharms: 0
 --- !u!114 &306703186
@@ -17031,6 +17067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 1
 --- !u!114 &338141149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22899,6 +22936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 1
 --- !u!135 &501569536
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -25074,6 +25112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 5
 --- !u!114 &554498058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32633,15 +32672,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736418654}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 183567098}
   - {fileID: 994817050}
-  m_Father: {fileID: 1658995797}
-  m_RootOrder: 3
+  m_Father: {fileID: 241676244}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &741652818
 GameObject:
@@ -32744,6 +32783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 9
 --- !u!135 &746512805
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -36259,6 +36299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 4
 --- !u!135 &832181712
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -40833,6 +40874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 2
 --- !u!114 &980607810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43163,6 +43205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 2
 --- !u!114 &1048235211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49816,6 +49859,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 5
 --- !u!135 &1207315873
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -51283,6 +51327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 2
 --- !u!135 &1237786017
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -52455,6 +52500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 1
 --- !u!114 &1259344375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53507,12 +53553,12 @@ Transform:
   m_GameObject: {fileID: 1269655234}
   m_LocalRotation: {x: -0, y: 0.046146095, z: -0, w: 0.99893475}
   m_LocalPosition: {x: -515.2622, y: -691.9889, z: -168.99283}
-  m_LocalScale: {x: 0.5600801, y: 1, z: 0.4578701}
+  m_LocalScale: {x: 0.5600802, y: 1, z: 0.45787016}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 161325373}
-  m_Father: {fileID: 1658995797}
-  m_RootOrder: 4
+  m_Father: {fileID: 241676244}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 5.29, z: 0}
 --- !u!1001 &1270759241
 PrefabInstance:
@@ -55535,6 +55581,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 3
 --- !u!135 &1310395991
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -55748,6 +55795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 5
 --- !u!114 &1331035824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59281,6 +59329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 2
 --- !u!114 &1419950316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67317,10 +67366,8 @@ Transform:
   - {fileID: 1605973628}
   - {fileID: 1914712838}
   - {fileID: 586070593}
-  - {fileID: 736418655}
-  - {fileID: 1269655240}
-  - {fileID: 296108255}
   - {fileID: 1830169135}
+  - {fileID: 241676244}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -72240,6 +72287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 2
 --- !u!114 &1766786563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73243,6 +73291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 10
 --- !u!135 &1791867096
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -74945,6 +74994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 8
 --- !u!114 &1824941006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75563,7 +75613,7 @@ Transform:
   - {fileID: 1537741761}
   - {fileID: 1269494099}
   m_Father: {fileID: 1658995797}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1831772638
 GameObject:
@@ -79778,6 +79828,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 4
 --- !u!114 &1928724717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80070,6 +80121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 3
 --- !u!114 &1931894706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83453,6 +83505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 9
 --- !u!135 &2018847005
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -84589,6 +84642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
+  moneyCollecting: 5
 --- !u!135 &2056104305
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -8,7 +8,6 @@ public class MoneyCollect : MonoBehaviour
 {
     //amount & spend
     public int moneyGain = 0;
-    public int moneyCollecting = 10;
     public TextMeshProUGUI moneyHave;
 
     //stats
@@ -22,10 +21,5 @@ public class MoneyCollect : MonoBehaviour
     public void Charisma()
     {
         playerCharms += playCharisma;
-    }
-
-    public void Money()
-    {
-        moneyGain += moneyCollecting;
     }
 }

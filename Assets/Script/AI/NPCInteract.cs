@@ -7,13 +7,15 @@ using TMPro;
 public class NPCInteract : MonoBehaviour
 {
     [SerializeField] MoneyCollect playerRegister;
+    public int moneyCollecting = 0;
+
     private bool cooldownBetween = false;
     public void Interact()
     {
         if(cooldownBetween == false)
         {
+            playerRegister.moneyGain += moneyCollecting;
             Debug.Log("Interact!");
-            playerRegister.Money();
             playerRegister.Charisma();
 
             Invoke("ResetCoolDown", 30f);
