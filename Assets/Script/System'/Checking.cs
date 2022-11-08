@@ -7,6 +7,8 @@ public class Checking : MonoBehaviour
     [SerializeField] MoneyCollect Check;
     [SerializeField] private Animator anim;
 
+    [SerializeField] Canvas notEnough;
+
     private void Awake()
     {
         Check.GetComponent<MoneyCollect>();
@@ -25,6 +27,7 @@ public class Checking : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             anim.SetBool("playerImpact", false);
+            notEnough.enabled = false;
         }
     }
 
@@ -33,6 +36,16 @@ public class Checking : MonoBehaviour
         if (Check.moneyGain >= 5)
         {
             anim.SetBool("playerImpact", true);
+        }
+
+        if (Check.moneyGain <= 5)
+        {
+            notEnough.enabled = true;
+        }
+
+        else
+        {
+            notEnough.enabled = false;
         }
     }
 }
