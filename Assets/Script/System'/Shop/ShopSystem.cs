@@ -7,10 +7,6 @@ using TMPro;
 public class ShopSystem : MonoBehaviour
 {
     public Canvas Shop;
-    [SerializeField] MoneyCollect spending;
-    [SerializeField] Hunger hungry;
-    [SerializeField] float hungerMetre = 0;
-    public int cost;
     private void OnTriggerStay(Collider other)
     {
         if(other.tag == "Player")
@@ -32,15 +28,6 @@ public class ShopSystem : MonoBehaviour
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
             Shop.enabled = false;
-        }
-    }
-
-    public void BuyingItem()
-    {
-        if (spending.moneyGain >= cost)
-        {
-            spending.moneyGain -= cost;
-            hungry.hunger += hungerMetre;
         }
     }
 }

@@ -16,7 +16,7 @@ public class NPCInteract : MonoBehaviour
             playerRegister.Money();
             playerRegister.Charisma();
 
-            Invoke("ResetCoolDown", 60f);
+            Invoke("ResetCoolDown", 30f);
             cooldownBetween = true;
         }
     }
