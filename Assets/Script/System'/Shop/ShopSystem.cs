@@ -18,6 +18,16 @@ public class ShopSystem : MonoBehaviour
                 //show the shop canvas
                 Shop.enabled = true;
             }
+
+            if(Shop.enabled == true)
+            {
+                if (Input.GetKey(KeyCode.Q))
+                {
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Cursor.visible = false;
+                    Shop.enabled = false;
+                }
+            }
         }
     }
 
