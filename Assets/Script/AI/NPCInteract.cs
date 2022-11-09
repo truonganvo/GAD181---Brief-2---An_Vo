@@ -10,6 +10,7 @@ public class NPCInteract : MonoBehaviour
     public int moneyCollecting = 0;
 
     private bool cooldownBetween = false;
+    [SerializeField] AudioSource moneySFX;
     public void Interact()
     {
         if(cooldownBetween == false)
@@ -20,6 +21,7 @@ public class NPCInteract : MonoBehaviour
 
             Invoke("ResetCoolDown", 30f);
             cooldownBetween = true;
+            moneySFX.Play();
         }
     }
 
