@@ -14,12 +14,12 @@ public class Hunger : MonoBehaviour
     void Start()
     {
         hunger = fullHunger;
-    }
+    } 
 
     void Update()
     {
         hungerBar.value = hunger;
-        hunger -= 0.5f * Time.deltaTime;
+        hunger -= 0.8f * Time.deltaTime;
 
         if (hunger <= 0)
         {
