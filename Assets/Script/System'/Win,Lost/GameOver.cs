@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
+    [SerializeField] MoneyCollect enoughMoney;
     public void RestarButton()
     {
         SceneManager.LoadScene("GameScene");
@@ -12,5 +13,13 @@ public class GameOver : MonoBehaviour
     public void MainMenuButton()
     {
         SceneManager.LoadScene("UI");
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (enoughMoney.moneyGain > 10)
+        {
+            SceneManager.LoadScene("Win");
+        }
     }
 }
