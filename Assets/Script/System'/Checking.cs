@@ -33,12 +33,12 @@ public class Checking : MonoBehaviour
 
     private void Track()
     {
-        if (Check.moneyGain >= 5)
+        if (Check.moneyGain >= 50)
         {
             anim.SetBool("playerImpact", true);
         }
 
-        if (Check.moneyGain <= 5)
+        if (Check.moneyGain <= 50)
         {
             notEnough.enabled = true;
         }

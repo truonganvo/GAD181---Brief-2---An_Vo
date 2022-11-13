@@ -17,7 +17,7 @@ public class GameOver : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (enoughMoney.moneyGain > 10)
+        if (enoughMoney.moneyGain > 300)
         {
             SceneManager.LoadScene("Win");
         }
