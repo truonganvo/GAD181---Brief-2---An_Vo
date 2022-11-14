@@ -14,6 +14,7 @@ public class Police : MonoBehaviour
     public float sightRange;
     public bool playerIsInRange;
 
+    [SerializeField] AudioSource detectedSFX;
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
@@ -25,7 +26,19 @@ public class Police : MonoBehaviour
         //Check for sight in range
         playerIsInRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
 
-        if (playerIsInRange) ChasePlayer();
+        if (playerIsInRange)
+        {
+            ChasePlayer();
+            if(playerIsInRange == true)
+            {
+                detectedSFX.enabled = true;
+            }
+        }
+
+        if (playerIsInRange == false)
+        {
+            detectedSFX.enabled = false;
+        }
     }
 
     private void ChasePlayer()

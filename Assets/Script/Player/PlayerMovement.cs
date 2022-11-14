@@ -21,6 +21,9 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask whatIsGround;
     bool grounded;
 
+    //SFX
+    [SerializeField] AudioSource footstep;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -53,6 +56,16 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         VerticalInput = Input.GetAxisRaw("Vertical");
+
+        //Check if the player press the keyboard
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
+        {
+            footstep.enabled = true;
+        }
+        else
+        {
+            footstep.enabled = false;
+        }
     }
 
     private void MovePlayer()

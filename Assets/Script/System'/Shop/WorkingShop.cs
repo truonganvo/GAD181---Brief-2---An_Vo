@@ -9,6 +9,9 @@ public class WorkingShop : MonoBehaviour
     [SerializeField] MoneyCollect spending;
     [SerializeField] Hunger hungry;
 
+    public AudioSource EatSFX;
+    private bool ResetCountDown = false;
+
     public int cost;
     public float fill;
     public TextMeshProUGUI costing;
@@ -24,6 +27,15 @@ public class WorkingShop : MonoBehaviour
         {
             spending.moneyGain -= cost;
             hungry.hunger += fill;
+
+            Invoke("ResetCoolDown", 0.5f);
+            ResetCountDown = true;
+            EatSFX.Play();
         }
+    }
+
+    private void ResetCoolDown()
+    {
+        ResetCountDown = false;
     }
 }

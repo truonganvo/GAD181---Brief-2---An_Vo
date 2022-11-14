@@ -19,6 +19,8 @@ public class GameOver : MonoBehaviour
     {
         if (enoughMoney.moneyGain > 300)
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             SceneManager.LoadScene("Win");
         }
     }
