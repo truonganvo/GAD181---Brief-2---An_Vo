@@ -5797,7 +5797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 4
+  moneyCollecting: 7
   moneySFX: {fileID: 107908737}
 --- !u!135 &107908733
 SphereCollider:
@@ -8127,7 +8127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonDisplay: {fileID: 1460841221}
   moneySystem: {fileID: 306703185}
-  gather: 12
+  gather: 23
   costing: {fileID: 1348320283}
 --- !u!114 &132857643
 MonoBehaviour:
@@ -11743,7 +11743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 10
+  moneyCollecting: 13
   moneySFX: {fileID: 189365217}
 --- !u!114 &189365211
 MonoBehaviour:
@@ -12675,7 +12675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonDisplay: {fileID: 49743114}
   moneySystem: {fileID: 306703185}
-  gather: 6
+  gather: 8
   costing: {fileID: 1849649541}
 --- !u!114 &201535228
 MonoBehaviour:
@@ -19885,7 +19885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 1
+  moneyCollecting: 3
   moneySFX: {fileID: 338141150}
 --- !u!114 &338141149
 MonoBehaviour:
@@ -22742,7 +22742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 10
+  moneyCollecting: 15
   moneySFX: {fileID: 399438442}
 --- !u!114 &399438445
 MonoBehaviour:
@@ -37015,7 +37015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonDisplay: {fileID: 1224344665}
   moneySystem: {fileID: 306703185}
-  gather: 5
+  gather: 15
   costing: {fileID: 2023911190}
 --- !u!114 &683767606
 MonoBehaviour:
@@ -42685,7 +42685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonDisplay: {fileID: 1100463618}
   moneySystem: {fileID: 306703185}
-  gather: 8
+  gather: 19
   costing: {fileID: 1842186943}
 --- !u!114 &782804446
 MonoBehaviour:
@@ -44723,7 +44723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 8
+  moneyCollecting: 13
   moneySFX: {fileID: 829243175}
 --- !u!114 &829243178
 MonoBehaviour:
@@ -45374,7 +45374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 4
+  moneyCollecting: 6
   moneySFX: {fileID: 832181716}
 --- !u!135 &832181712
 SphereCollider:
@@ -51551,7 +51551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 2
+  moneyCollecting: 3
   moneySFX: {fileID: 980607816}
 --- !u!114 &980607810
 MonoBehaviour:
@@ -54235,7 +54235,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Shop UI testing
+  m_text: 'Shop '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -54503,7 +54503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 2
+  moneyCollecting: 6
   moneySFX: {fileID: 1048235217}
 --- !u!114 &1048235211
 MonoBehaviour:
@@ -61237,7 +61237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonDisplay: {fileID: 1099060589}
   moneySystem: {fileID: 306703185}
-  gather: 9
+  gather: 14
   costing: {fileID: 1797364374}
 --- !u!114 &1171242186
 MonoBehaviour:
@@ -63138,7 +63138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 5
+  moneyCollecting: 7
   moneySFX: {fileID: 1207315877}
 --- !u!135 &1207315873
 SphereCollider:
@@ -66515,7 +66515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 1
+  moneyCollecting: 4
   moneySFX: {fileID: 1259344381}
 --- !u!114 &1259344375
 MonoBehaviour:
@@ -68833,7 +68833,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6416e4ce3ec64e940a3833f825292bcd, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -70473,7 +70473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 3
+  moneyCollecting: 8
   moneySFX: {fileID: 1310395995}
 --- !u!135 &1310395991
 SphereCollider:
@@ -72953,7 +72953,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6416e4ce3ec64e940a3833f825292bcd, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -75827,7 +75827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 2
+  moneyCollecting: 5
   moneySFX: {fileID: 1419950322}
 --- !u!114 &1419950316
 MonoBehaviour:
@@ -76597,7 +76597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 8
+  moneyCollecting: 9
   moneySFX: {fileID: 1422685541}
 --- !u!114 &1422685544
 MonoBehaviour:
@@ -76957,7 +76957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonDisplay: {fileID: 948220443}
   moneySystem: {fileID: 306703185}
-  gather: 9
+  gather: 15
   costing: {fileID: 621701173}
 --- !u!114 &1428191662
 MonoBehaviour:
@@ -81572,7 +81572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonDisplay: {fileID: 514513207}
   moneySystem: {fileID: 306703185}
-  gather: 11
+  gather: 25
   costing: {fileID: 165596344}
 --- !u!114 &1517555814
 MonoBehaviour:
@@ -85743,7 +85743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7abbc5a986966214194870f5f24e422d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 20
+  movementSpeed: 5
   orientation: {fileID: 603363035}
   groundDrag: 5
   playerHeight: 2
@@ -93760,7 +93760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 2
+  moneyCollecting: 4
   moneySFX: {fileID: 1766786569}
 --- !u!114 &1766786563
 MonoBehaviour:
@@ -97180,7 +97180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 8
+  moneyCollecting: 12
   moneySFX: {fileID: 1824941012}
 --- !u!114 &1824941006
 MonoBehaviour:
@@ -101255,7 +101255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonDisplay: {fileID: 1949905390}
   moneySystem: {fileID: 306703185}
-  gather: 8
+  gather: 16
   costing: {fileID: 1680287117}
 --- !u!114 &1890400289
 MonoBehaviour:
@@ -106607,8 +106607,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sub.... Try not to die out there. Foods here are *&^% but can't complain\nPress
-    E - To open the shop and check the price \n\n\n"
+  m_text: "Here sell the best, ,the biggest, the most delicious, luxuries\r, supreme,
+    premium, legendary, limited, gold, edition foods you will every taste, hear,
+    see, feel, smell. \n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -106671,7 +106672,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -505.1613, y: -78.139206, z: -498.22144, w: -75.37403}
+  m_margin: {x: -505.1613, y: -78.139206, z: -498.22144, w: -100.593094}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -109771,7 +109772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRegister: {fileID: 306703185}
-  moneyCollecting: 5
+  moneyCollecting: 7
   moneySFX: {fileID: 2056104309}
 --- !u!135 &2056104305
 SphereCollider:
